@@ -1,0 +1,49 @@
+.formulario{
+    display: block;
+border: solid 2px rgb(211, 208, 208);
+    border-radius: 6px;
+    width: 275px;
+    height: 250px;  
+  text-align: center;
+}
+
+
+label{
+    margin: 10px;
+    padding: 0 155px 0 0;
+}
+
+
+.input{
+background-color: #E9ECEF;
+border-radius: 4px;
+margin: 10px;
+border: none;
+padding: 1em 1em; 
+}
+
+.input:hover{
+    background-color: #DEE2E6;
+}
+
+.input:focus{
+    background-color: #FFFFFF;
+    border-color: #000000;
+}
+
+.botao{
+ background-color: #1971C2;
+ color: white;
+ border-radius: 6px;
+padding: 12px 6em;
+border: none;
+margin: 12px;
+}
+
+.botao:hover{
+    background-color: #1864AB;;
+}
+
+.botao:focus{
+    border-color: #000000;
+}
