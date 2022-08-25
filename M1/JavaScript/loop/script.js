@@ -52,3 +52,56 @@
 // for (let i = 0; i < states.length; i += 2) {
 //     console.log(states[i])
 // }
+
+//S4-14 
+//exercicio 1
+
+// function calculaIdade(anoAtual, anoNascimento){
+//     anoAtual=2022
+//     anoNascimento = 1992
+     
+//     return anoAtual-anoNascimento
+// }
+
+// console.log(calculaIdade())
+
+
+//exercicio 3
+
+// function valorAPagar(maca, quantidade){
+//     maca=1.30
+//     quantidade=Number(prompt("Diga a quantidade que vc quer"))
+//     if(quantidade>=12){
+//         maca=1.00
+//     }
+//     let aPagar= maca*quantidade
+// return aPagar
+// }
+
+// console.log(`Você irá pagar ${valorAPagar()}`)
+
+
+//exercicio 4
+
+// function totalPagar(salario){
+//     salario=1200
+//     let comissao=Number(prompt("Diga a comissão"))
+//     let menorCo = comissao*(3/100)
+//     let maiorCo=comissao*(5/100)
+
+//     if(comissao<=1200){
+//         return menorCo+salario
+//     }if(comissao>=1800){
+//         return maiorCo+salario
+//     }
+// }
+
+// console.log(totalPagar())
+
+
+
+//exercicio 5
+let notas= [5, 7, 10, 3, 9, 5, 5, 2, 1, 9, 8, 3, 4, 6, 7, 6, 7, 8, 10, 7]
+
+function(lista)
+
