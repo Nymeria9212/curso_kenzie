@@ -1,0 +1,51 @@
+body {
+  width: 93vw;
+}
+.header-page {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #ffff;
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.header-page > h1 {
+  width: 50%;
+}
+.header-page > span {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.header-page > span > i {
+  align-self: flex-end;
+}
+.section__buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 85px;
+  left: 293px;
+  gap: 5px;
+  transition: 1s ease;
+  z-index: -2;
+}
+.buttons__menu {
+  background-color: #e9ecef;
+  border-radius: 4px;
+  border: 2px solid #e9ecef;
+  padding: 0 10px;
+}
+.fa-solid {
+  cursor: pointer;
+}
+
+.close-section {
+  position: absolute;
+  top: -150px;
+}
